@@ -1,0 +1,565 @@
+body {
+	background-color:#BEE8C8;
+}
+
+p.body {
+	font-family:calibri;
+	font-size:200%;
+	position:absolute;
+	left:200px;
+	top:450px;
+	z-index:6;
+	width:1000px;
+}
+
+p.keySleep {
+	font-family:calibri;
+	font-size:175%;
+	position:absolute;
+	left:1350px;
+	top:215px;
+	z-index:2;
+}
+
+p.keyStudy {
+	font-family:calibri;
+	font-size:175%;
+	position:absolute;
+	left:1350px;
+	top:295px;
+	z-index:2;
+	margin-right:-800px;
+}
+
+p.keyClass {
+	font-family:calibri;
+	font-size:175%;
+	position:absolute;
+	left:1350px;
+	top:367px;
+	z-index:2;
+	margin-right:-800px;
+}
+
+p.keyWorkout {
+	font-family:calibri;
+	font-size:175%;
+	position:absolute;
+	left:1350px;
+	top:445px;
+	z-index:2;
+	margin-right:-800px;
+}
+
+p.keySocial {
+	font-family:calibri;
+	font-size:175%;
+	position:absolute;
+	left:1350px;
+	top:517px;
+	z-index:2;
+	margin-right:-800px;
+}
+
+p.keyEat {
+	font-family:calibri;
+	font-size:175%;
+	position:absolute;
+	left:1350px;
+	top:591px;
+	z-index:2;
+	margin-right:-800px;
+}
+
+p.keyCleaning {
+	font-family:calibri;
+	font-size:175%;
+	position:absolute;
+	left:1350px;
+	top:667px;
+	z-index:2;
+	margin-right:-800px;
+}
+
+p.keyMedia {
+	font-family:calibri;
+	font-size:175%;
+	position:absolute;
+	left:1350px;
+	top:745px;
+	z-index:2;
+	width:150px;
+	margin-right:-800px;
+}
+
+p.Sunday {
+	font-family:calibri;
+	font-size:200%;
+	position:absolute;
+	left:150px;
+	top:230px;
+	z-index:2;
+	font-weight: bold;
+}
+
+p.Monday {
+	font-family:calibri;
+	font-size:200%;
+	position:absolute;
+	left:150px;
+	top:320px;
+	z-index:2;
+	font-weight: bold;
+}
+
+p.Tuesday {
+	font-family:calibri;
+	font-size:200%;
+	position:absolute;
+	left:150px;
+	top:410px;
+	z-index:2;
+	font-weight: bold;
+}
+
+p.Wednesday {
+	font-family:calibri;
+	font-size:200%;
+	position:absolute;
+	left:130px;
+	top:500px;
+	z-index:2;
+	font-weight: bold;
+}
+
+p.Thursday {
+	font-family:calibri;
+	font-size:200%;
+	position:absolute;
+	left:150px;
+	top:590px;
+	z-index:2;
+	font-weight: bold;
+}
+
+p.Friday {
+	font-family:calibri;
+	font-size:200%;
+	position:absolute;
+	left:150px;
+	top:680px;
+	z-index:2;
+	font-weight: bold;
+}
+
+p.Saturday {
+	font-family:calibri;
+	font-size:200%;
+	position:absolute;
+	left:150px;
+	top:770px;
+	z-index:2;
+	font-weight: bold;
+}
+
+g {
+	transform:scale(0.65);
+}
+
+h1 {
+	font-family:helvetica;
+	font-size:500%;
+	text-align:center;
+	margin-bottom:-120px;
+}
+
+h2.overview {
+	font-family:helvetica;
+	font-size:250%;
+	position:absolute;
+	left:500px;
+	top:150px;
+	z-index:5;
+}
+
+h2.myWeek {
+	font-family:helvetica;
+	font-size:250%;
+	position:absolute;
+	left:900px;
+	top:150px;
+	z-index:5;
+}
+
+a {
+	color:black;
+}
+
+.parent-container {
+	position:relative;
+	width:1200px;
+	height:800px;
+}
+
+.svg-background {
+	position:absolute;
+	top:150px;
+	left:50px;
+	z-index:1;
+	padding-bottom:50px;
+}
+
+.svg-background-main {
+	position:absolute;
+	top:150px;
+	left:150px;
+	z-index:1;
+	padding-bottom:50px;
+}
+
+.svg-schedule {
+	position:absolute;
+	left:300px;
+	z-index:2;
+}
+
+.svg-key {
+	position:absolute;
+	left:1200;
+	z-index:2;
+}
+
+rect.sleep:hover{
+	fill:#4b7299;
+	transform: scale(1, 1.25);
+	transform-origin: center;
+	transition: all 0.2s ease;
+}
+
+rect.study:hover{
+	fill:#ad3e3e;
+	transform: scale(1, 1.25);
+	transform-origin: center;
+	transition: all 0.2s ease;
+}
+
+rect.workout:hover{
+	fill:#ad3e3e;
+	transform: scale(1, 1.25);
+	transform-origin: center;
+	transition: all 0.2s ease;
+}
+
+rect.social:hover{
+	fill:#ad3e3e;
+	transform: scale(1, 1.25);
+	transform-origin: center;
+	transition: all 0.2s ease;
+}
+
+rect.eat:hover{
+	fill:#4b7299;
+	transform: scale(1, 1.25);
+	transform-origin: center;
+	transition: all 0.2s ease;
+}
+
+rect.media:hover{
+	fill:#4b7299;
+	transform: scale(1, 1.25);
+	transform-origin: center;
+	transition: all 0.2s ease;
+}
+
+rect.class:hover{
+	fill:#4b7299;
+	transform: scale(1, 1.25);
+	transform-origin: center;
+	transition: all 0.2s ease;
+}
+
+rect.clean:hover{
+	fill:#4b7299;
+	transform: scale(1, 1.25);
+	transform-origin: center;
+	transition: all 0.2s ease;
+}
+
+text {
+	font-family:calibri; 
+	font-size:250%;
+	fill:white;
+	position:absolute;
+	z-index:5;
+	opacity:0;
+	transition: all 0.2s ease;
+	pointer-events: none;
+}
+
+text.small {
+	font-family:calibri; 
+	font-size:175%;
+	fill:white;
+	position:absolute;
+	z-index:5;
+	opacity:0;
+	transition: all 0.2s ease;
+	pointer-events: none;
+}
+
+/*Making a separate tooltip for each 1 hour segment - different positions above each rectangle */
+
+.tooltipSocialMonday {
+	position:absolute;
+	background:#8c8cc2;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:300px;
+	left:975px;
+}
+
+.tooltipEatMonday {
+	position:absolute;
+	background:#4f825e;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:300px;
+	left:1015px;
+}
+
+.tooltipSocialTuesday {
+	position:absolute;
+	background:#8c8cc2;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:390px;
+	left:1048px;
+}
+
+.tooltipEatTuesday {
+	position:absolute;
+	background:#4f825e;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:390px;
+	left:1085px;
+}
+
+.tooltipMediaTuesday {
+	position:absolute;
+	background:#c44d4d;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:390px;
+	left:1123px;
+}
+
+.tooltipEatWednesday {
+	position:absolute;
+	background:#4f825e;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:480px;
+	left:1015px;
+}
+
+.tooltipMediaWednesday {
+	position:absolute;
+	background:#c44d4d;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:480px;
+	left:1123px;
+}
+
+.tooltipEatThursday {
+	position:absolute;
+	background:#4f825e;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:570px;
+	left:1050px;
+}
+
+.tooltipCleaningThursday {
+	position:absolute;
+	background:#5da8a8;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:570px;
+	left:1085px;
+}
+
+.tooltipMediaThursday {
+	position:absolute;
+	background:#c44d4d;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:570px;
+	left:1120px;
+}
+
+.tooltipMediaFriday {
+	position:absolute;
+	background:#c44d4d;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:660px;
+	left:1120px;
+}
+
+.tooltipWorkoutOverall {
+	position:absolute;
+	background:#d1d179;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:280px;
+	left:855px;
+}
+
+.tooltipEatOverall {
+	position:absolute;
+	background:#4f825e;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:280px;
+	left:1020px;
+}
+
+.tooltipCleaningOverall {
+	position:absolute;
+	background:#5da8a8;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:280px;
+	left:1055px;
+}
+
+.tooltipMediaOverall {
+	position:absolute;
+	background:#c44d4d;
+	color:white;
+	padding: 6px 10px;
+	border-radius: 5px;
+	font-size:14px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	z-index:10;
+	font-family:calibri;
+	font-size:125%;
+	top:280px;
+	left:1100px;
+}

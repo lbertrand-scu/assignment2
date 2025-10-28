@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Lily's Schedule</title>
+	<link rel="stylesheet" type="text/css" href="schedule_style.css">
+
+</head>
+
+<body>
+
+	<h1>LILY'S SCHEDULE</h1>
+
+	<div class="parent-container">
+
+		<h2 class="overview"><a href="myWeeklySchedule.html">OVERVIEW</a></h2>
+
+		<h2 class="myWeek"><a href="myWeek.html">MY WEEK</a></h2>
+
+	<!--Sunday-->
+		<svg class="svg-schedule" width="1100" height="100" transform="translate (0 250)">
+			<g>
+				<rect id="hoverAreaSleepSunday" class="sleep" width="507.25" height="100" fill="#b3d9ff"></rect>
+				<text id="sleepDisplaySunday" x="250" y="55" text-anchor="middle" dominant-baseline="middle">9 hours</text>
+
+				<rect id="hoverAreaStudySunday" class="study" width="254.125" height="100" fill="#ffccff" x="506.25"></rect>
+				<text id="studyDisplaySunday" x="635" y="55" text-anchor="middle" dominant-baseline="middle">4.5 hours</text>
+
+				<rect id="hoverAreaWorkoutSunday" class="workout" width="113.5" height="100" fill="#ffffcc" x="759.375"></rect>
+				<text id="workoutDisplaySunday" class="small" x="815" y="55" text-anchor="middle" dominant-baseline="middle">2 hours</text>
+
+				<rect id="hoverAreaSocialSunday" class="social" width="254.125" height="100" fill="#ccccff" x="871.875"></rect>
+				<text id="socialDisplaySunday" x="1000" y="55" text-anchor="middle" dominant-baseline="middle">4.5 hours</text>
+
+				<rect id="hoverAreaEatSunday" class="eat" width="113.5" height="100" fill="#7dba8f" x="1125"></rect>
+				<text id="eatDisplaySunday" class="small" x="1180" y="55" text-anchor="middle" dominant-baseline="middle">2 hours</text>
+
+				<rect id="hoverAreaMediaSunday" class="media" width="113.5" height="100" fill="#ff8080" x="1237.5"></rect>
+				<text id="mediaDisplaySunday" class="small" x="1295" y="55" text-anchor="middle" dominant-baseline="middle">2 hours</text>
+			</g>
+		</svg>
+
+		<div id="tooltipSocialMonday" class="tooltipSocialMonday"></div>
+		<div id="tooltipEatMonday" class="tooltipEatMonday"></div>
+
+	<!--Monday-->
+		<svg class="svg-schedule" width="1100" height="100" transform="translate (0 340)">
+			<g>
+				<rect id="hoverAreaSleepMonday" class="sleep" width="451" height="100" fill="#b3d9ff"></rect>
+				<text id="sleepDisplayMonday" x="235" y="55" text-anchor="middle" dominant-baseline="middle">8 hours</text>
+
+				<rect id="hoverAreaStudyMonday" class="study" width="394.75" height="100" fill="#ffccff" x="450"></rect>
+				<text id="studyDisplayMonday" x="640" y="55" text-anchor="middle" dominant-baseline="middle">7 hours</text>
+
+				<rect id="hoverAreaClassMonday" class="class" width="226" height="100" fill="#ff80b3" x="843.75"></rect>
+				<text id="classDisplayMonday" x="960" y="55" text-anchor="middle" dominant-baseline="middle">4 hours</text>
+
+				<rect id="hoverAreaSocialMonday" class="social" width="57.25" height="100" fill="#ccccff" x="1068.75"></rect>
+
+				<rect id="hoverAreaEatMonday" class="eat" width="57.25" height="100" fill="#7dba8f" x="1125"></rect>
+
+				<rect id="hoverAreaMediaMonday" class="media" width="169.75" height="100" fill="#ff8080" x="1181.25"></rect>
+				<text id="mediaDisplayMonday" x="1265" y="55" text-anchor="middle" dominant-baseline="middle">3 hours</text>
+			</g>
+		</svg>
+
+		<div id="tooltipSocialTuesday" class="tooltipSocialTuesday"></div>
+		<div id="tooltipEatTuesday" class="tooltipEatTuesday"></div>
+		<div id="tooltipMediaTuesday" class="tooltipMediaTuesday"></div>
+
+	<!--Tuesday-->
+		<svg class="svg-schedule" width="1100" height="100" transform="translate (0 430)">
+			<g>
+				<rect id="hoverAreaSleepTuesday" class="sleep" width="394.75" height="100" fill="#b3d9ff"></rect>
+				<text id="sleepDisplayTuesday" x="190" y="55" text-anchor="middle" dominant-baseline="middle">7 hours</text>
+
+				<rect id="hoverAreaStudyTuesday" class="study" width="451" height="100" fill="#ffccff" x="393.75"></rect>
+				<text id="studyDisplayTuesday" x="620" y="55" text-anchor="middle" dominant-baseline="middle">8 hours</text>
+
+				<rect id="hoverAreaClassTuesday" class="class" width="338.5" height="100" fill="#ff80b3" x="843.75"></rect>
+				<text id="classDisplayTuesday" x="1010" y="55" text-anchor="middle" dominant-baseline="middle">6 hours</text>
+
+				<rect id="hoverAreaSocialTuesday" class="social" width="57.25" height="100" fill="#ccccff" x="1181.25"></rect>
+
+				<rect id="hoverAreaEatTuesday" class="eat" width="57.25" height="100" fill="#7dba8f" x="1237.5"></rect>
+
+				<rect id="hoverAreaMediaTuesday" class="media" width="57.25" height="100" fill="#ff8080" x="1293.75"></rect>
+			</g>
+		</svg>
+
+		<div id="tooltipEatWednesday" class="tooltipEatWednesday"></div>
+		<div id="tooltipMediaWednesday" class="tooltipMediaWednesday"></div>
+
+	<!--Wednesday-->
+		<svg class="svg-schedule" width="1100" height="100" transform="translate (0 520)">
+			<g>
+				<rect id="hoverAreaSleepWednesday" class="sleep" width="394.75" height="100" fill="#b3d9ff"></rect>
+				<text id="sleepDisplayWednesday" x="190" y="55" text-anchor="middle" dominant-baseline="middle">7 hours</text>
+
+				<rect id="hoverAreaStudyWednesday" class="study" width="338.5" height="100" fill="#ffccff" x="393.75"></rect>
+				<text id="studyDisplayWednesday" x="570" y="55" text-anchor="middle" dominant-baseline="middle">6 hours</text>
+
+				<rect id="hoverAreaClassWednesday" class="class" width="113.5" height="100" fill="#ff80b3" x="731.25"></rect>
+				<text id="classDisplayWednesday" class="small" x="790" y="55" text-anchor="middle" dominant-baseline="middle">2 hours</text>
+
+				<rect id="hoverAreaWorkoutWednesday" class="workout" width="113.5" height="100" fill="#ffffcc" x="843.75"></rect>
+				<text id="workoutDisplayWednesday" class="small" x="900" y="55" text-anchor="middle" dominant-baseline="middle">2 hours</text>
+
+				<rect id="hoverAreaSocialWednesday" class="social" width="169.75" height="100" fill="#ccccff" x="956.25"></rect>
+				<text id="socialDisplayWednesday" x="1040" y="55" text-anchor="middle" dominant-baseline="middle">3 hours</text>
+
+				<rect id="hoverAreaEatWednesday" class="eat" width="57.25" height="100" fill="#7dba8f" x="1125"></rect>
+
+				<rect id="hoverAreaCleaningWednesday" class="clean" width="113.5" height="100" fill="#b3ffff" x="1181.25"></rect>
+				<text id="cleaningDisplayWednesday" class="small" x="1238" y="55" text-anchor="middle" dominant-baseline="middle">2 hours</text>
+
+				<rect id="hoverAreaMediaWednesday" class="media" width="57.25" height="100" fill="#ff8080" x="1293.75"></rect>
+			</g>
+		</svg>
+
+		<div id="tooltipEatThursday" class="tooltipEatThursday"></div>
+		<div id="tooltipCleaningThursday" class="tooltipCleaningThursday"></div>
+		<div id="tooltipMediaThursday" class="tooltipMediaThursday"></div>
+
+	<!--Thursday-->
+		<svg class="svg-schedule" width="1100" height="100" transform="translate (0 610)">
+			<g>
+				<rect id="hoverAreaSleepThursday" class="sleep" width="394.75" height="100" fill="#b3d9ff"></rect>
+				<text id="sleepDisplayThursday" x="190" y="55" text-anchor="middle" dominant-baseline="middle">7 hours</text>
+
+				<rect id="hoverAreaStudyThursday" class="study" width="338.5" height="100" fill="#ffccff" x="393.75"></rect>
+				<text id="studyDisplayThursday" x="570" y="55" text-anchor="middle" dominant-baseline="middle">6 hours</text>
+
+				<rect id="hoverAreaClassThursday" class="class" width="169.75" height="100" fill="#ff80b3" x="731.25"></rect>
+				<text id="classDisplayThursday" x="815" y="55" text-anchor="middle" dominant-baseline="middle">3 hours</text>
+
+				<rect id="hoverAreaWorkoutThursday" class="workout" width="113.5" height="100" fill="#ffffcc" x="900"></rect>
+				<text id="workoutDisplayThursday" class="small" x="958" y="55" text-anchor="middle" dominant-baseline="middle">2 hours</text>
+
+				<rect id="hoverAreaSocialThursday" class="social" width="169.75" height="100" fill="#ccccff" x="1012.5"></rect>
+				<text id="socialDisplayThursday" x="1100" y="55" text-anchor="middle" dominant-baseline="middle">3 hours</text>
+
+				<rect id="hoverAreaEatThursday" class="eat" width="57.25" height="100" fill="#7dba8f" x="1181.25"></rect>
+
+				<rect id="hoverAreaCleaningThursday" class="clean" width="57.25" height="100" fill="#b3ffff" x="1237.5"></rect>
+
+				<rect id="hoverAreaMediaThursday" class="media" width="57.25" height="100" fill="#ff8080" x="1293.75"></rect>
+			</g>
+		</svg>
+
+		<div id="tooltipMediaFriday" class="tooltipMediaFriday"></div>
+
+	<!--Friday-->
+		<svg class="svg-schedule" width="1100" height="100" transform="translate (0 700)">
+			<g>
+				<rect id="hoverAreaSleepFriday" class="sleep" width="394.75" height="100" fill="#b3d9ff"></rect>
+				<text id="sleepDisplayFriday" x="190" y="55" text-anchor="middle" dominant-baseline="middle">7 hours</text>
+
+				<rect id="hoverAreaStudyFriday" class="study" width="282.25" height="100" fill="#ffccff" x="393.75"></rect>
+				<text id="studyDisplayFriday" x="535" y="55" text-anchor="middle" dominant-baseline="middle">5 hours</text>
+
+				<rect id="hoverAreaClassFriday" class="class" width="282.25" height="100" fill="#ff80b3" x="675"></rect>
+				<text id="classDisplayFriday" x="815" y="55" text-anchor="middle" dominant-baseline="middle">5 hours</text>
+
+				<rect id="hoverAreaSocialFriday" class="social" width="226" height="100" fill="#ccccff" x="956.25"></rect>
+				<text id="socialDisplayFriday" x="1070" y="55" text-anchor="middle" dominant-baseline="middle">4 hours</text>
+
+				<rect id="hoverAreaEatFriday" class="eat" width="113.5" height="100" fill="#7dba8f" x="1181.25"></rect>
+				<text id="eatDisplayFriday" class="small" x="1240" y="55" text-anchor="middle" dominant-baseline="middle">2 hours</text>
+
+				<rect id="hoverAreaMediaFriday" class="media" width="57.25" height="100" fill="#ff8080" x="1293.75"></rect>
+			</g>
+		</svg>
+
+	<!--Saturday-->
+		<svg class="svg-schedule" width="1100" height="100" transform="translate (0 790)">
+			<g>
+				<rect id="hoverAreaSleepSaturday" class="sleep" width="507.25" height="100" fill="#b3d9ff"></rect>
+				<text id="sleepDisplaySaturday" x="250" y="55" text-anchor="middle" dominant-baseline="middle">9 hours</text>
+
+				<rect id="hoverAreaStudySaturday" class="study" width="169.75" height="100" fill="#ffccff" x="506.25"></rect>
+				<text id="studyDisplaySaturday" x="590" y="55" text-anchor="middle" dominant-baseline="middle">3 hours</text>
+
+				<rect id="hoverAreaWorkoutSaturday" class="workout" width="113.5" height="100" fill="#ffffcc" x="675"></rect>
+				<text id="workoutDisplaySaturday" class="small" x="730" y="55" text-anchor="middle" dominant-baseline="middle">2 hours</text>
+
+				<rect id="hoverAreaSocialSaturday" class="social" width="338.5" height="100" fill="#ccccff" x="787.5"></rect>
+				<text id="socialDisplaySaturday" x="950" y="55" text-anchor="middle" dominant-baseline="middle">6 hours</text>
+
+				<rect id="hoverAreaEatSaturday" class="eat" width="113.5" height="100" fill="#7dba8f" x="1125"></rect>
+				<text id="eatDisplaySaturday" class="small" x="1180" y="55" text-anchor="middle" dominant-baseline="middle">2 hours</text>
+
+				<rect id="hoverAreaMediaSaturday" class="media" width="113.5" height="100" fill="#ff8080" x="1237.5"></rect>
+				<text id="mediaDisplaySaturday" class="small" x="1295" y="55" text-anchor="middle" dominant-baseline="middle">2 hours</text>
+			</g>
+		</svg>
+
+		<!--Key-->
+		<svg class="svg-key" width="100" height="600" transform="translate(1350 240)">
+			<rect width="50" height="50" fill="#b3d9ff"/>
+			<rect width="50" height="50" fill="#ffccff" y="75"/>
+			<rect width="50" height="50" fill="#ff80b3" y="150"/>
+			<rect width="50" height="50" fill="#ffffcc" y="225"/>
+			<rect width="50" height="50" fill="#ccccff" y="300"/>
+			<rect width="50" height="50" fill="#7dba8f" y="375"/>
+			<rect width="50" height="50" fill="#b3ffff" y="450"/>
+			<rect width="50" height="50" fill="#ff8080" y="525"/>
+		</svg>
+
+			<p class="keySleep">Sleep</p>
+			<p class="keyStudy">Study</p>
+			<p class="keyClass">Class</p>
+			<p class="keyWorkout">Workout</p>
+			<p class="keySocial">Social</p>
+			<p class="keyEat">Eat</p>
+			<p class="keyCleaning">Cleaning</p>
+			<p class="keyMedia">Social Media</p>
+
+
+			<p class="Sunday">Sunday</p>
+			<p class="Monday">Monday</p>
+			<p class="Tuesday">Tuesday</p>
+			<p class="Wednesday">Wednesday</p>
+			<p class="Thursday">Thursday</p>
+			<p class="Friday">Friday</p>
+			<p class="Saturday">Saturday</p>
+
+	<!--Background-->
+		<svg class="svg-background" width="1550" height="750">
+			<rect width="1550" height="750" rx="50" ry="50" fill="white"></rect>
+		</svg>
+
+	</div>
+
+<!--Making a hover area for each rectangle - won't let me call it more than once without something going wrong-->
+
+	<script src="myWeekAnimation.js"></script> 
+
+</body>
+
+</html>

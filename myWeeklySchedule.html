@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Lily's Schedule</title>
+	<link rel="stylesheet" type="text/css" href="schedule_style.css">
+
+</head>
+
+<body>
+
+	<h1>LILY'S SCHEDULE</h1>
+
+	<div class="parent-container">
+
+		<h2 class="overview"><a href="myWeeklySchedule.html">OVERVIEW</a></h2>
+
+		<h2 class="myWeek"><a href="myWeek.html">MY WEEK</a></h2>
+
+		<div id="tooltipWorkoutOverall" class="tooltipWorkoutOverall"></div>
+		<div id="tooltipEatOverall" class="tooltipEatOverall"></div>
+		<div id="tooltipCleaningOverall" class="tooltipCleaningOverall"></div>
+		<div id="tooltipMediaOverall" class="tooltipMediaOverall"></div>
+
+		<svg class="svg-schedule" width="1000" height="100" transform="translate (-50 320)">
+			<g>
+				<rect id="hoverAreaSleepOverall" class="sleep" width="434.6875" height="100" fill="#b3d9ff"></rect>
+				<text id="sleepDisplayOverall" x="220" y="55" text-anchor="middle" dominant-baseline="middle">7.71 hours</text>
+
+				<rect id="hoverAreaStudyOverall" class="study" width="318.25" height="100" fill="#ffccff" x="433.6875"></rect>
+				<text id="studyDisplayOverall" x="600" y="55" text-anchor="middle" dominant-baseline="middle">5.64 hours</text>
+
+				<rect id="hoverAreaClassOverall" class="class" width="161.875" height="100" fill="#ff80b3" x="750.9375"></rect>
+				<text id="classDisplayOverall" class="small" x="830" y="55" text-anchor="middle" dominant-baseline="middle">2.86 hours</text>
+
+				<rect id="hoverAreaWorkoutOverall" class="workout" width="65.125" height="100" fill="#ffffcc" x="911.8125"></rect>
+
+				<rect id="hoverAreaSocialOverall" class="social" width="181.5625" height="100" fill="#ccccff" x="975.9375"></rect>
+				<text id="socialDisplayOverall" x="1067" y="55" text-anchor="middle" dominant-baseline="middle">3.21 hours</text>
+
+				<rect id="hoverAreaEatOverall" class="eat" width="80.875" height="100" fill="#7dba8f" x="1156.5"></rect>
+
+				<rect id="hoverAreaCleaningOverall" class="clean" width="25.1875" height="100" fill="#b3ffff" x="1236.375"></rect>
+
+				<rect id="hoverAreaMediaOverall" class="media" width="89.3125" height="100" fill="#ff8080" x="1260.5625"></rect>
+			</g>
+		</svg>
+
+		<svg class="svg-key" width="100" height="600" transform="translate(1275 240)">
+			<rect width="50" height="50" fill="#b3d9ff"/>
+			<rect width="50" height="50" fill="#ffccff" y="75"/>
+			<rect width="50" height="50" fill="#ff80b3" y="150"/>
+			<rect width="50" height="50" fill="#ffffcc" y="225"/>
+			<rect width="50" height="50" fill="#ccccff" y="300"/>
+			<rect width="50" height="50" fill="#7dba8f" y="375"/>
+			<rect width="50" height="50" fill="#b3ffff" y="450"/>
+			<rect width="50" height="50" fill="#ff8080" y="525"/>
+		</svg>
+
+			<p class="keySleep">Sleep</p>
+			<p class="keyStudy">Study</p>
+			<p class="keyClass">Class</p>
+			<p class="keyWorkout">Workout</p>
+			<p class="keySocial">Social</p>
+			<p class="keyEat">Eat</p>
+			<p class="keyCleaning">Cleaning</p>
+			<p class="keyMedia">Social Media</p>
+	
+
+	<!--Background-->
+		<svg class="svg-background-main" width="1350" height="750">
+			<rect width="1350" height="750" rx="50" ry="50" fill="white"></rect>
+		</svg>
+
+			<p class="body">The above is my average weekly schedule. Overall, I'm content with the amount of sleep I get and my time on social media, but I wish I spent a little bit less time on studying each day and a little more time socializing. I think that getting in a good amount of social activity is important to stay motivated and for overall mental health. In addition, too much time in the library everyday can cause quick burnout.<br><br>The color each block changes to when you hover over it corresponds to how content I am with that part of my schedule. Blue means I think it's a good amount of time per day, and red means I'd like to adjust it somehow.</p>
+
+</div>
+
+<script src="overallAnimation.js"></script>
+
+</body>
+</html>
